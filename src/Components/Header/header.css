@@ -29,3 +29,39 @@
     color: white;
     text-decoration: none;
 }
+
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+      display: block;
+    }
+
+    .menu-icon {
+        font-size: large;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      background-color: #19283d;
+      padding: 1rem;
+      height: auto;
+      z-index: 1;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  }

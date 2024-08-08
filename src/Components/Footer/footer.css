@@ -1,9 +1,10 @@
 .footer {
-    background-color: #f0f0f0; /* Adjust background color as needed */
+    background-color: #f0f0f0;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2);
   }
   
   .logo {
@@ -11,8 +12,7 @@
   }
   
   .logo img {
-    width: 150px; /* Adjust logo size as needed */
-    margin-bottom: 10px;
+    width: 150px;
   }
   
   .contact {
@@ -25,14 +25,9 @@
     text-decoration: none;
     color: #333;
   }
-  
-  .social-media {
-    display: flex;
-    gap: 10px;
+
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+    }
   }
-  
-  .social-media a {
-    color: #333;
-    font-size: 20px;
-  }
-  
