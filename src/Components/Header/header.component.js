@@ -19,16 +19,16 @@ const Header = () => {
           <span className="menu-icon">&#9776;</span>
         </button>
         <ul className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
-          <li><a href="#">My Health Resources</a></li>
-          <li><a href="#">Specialties</a></li>
-          <li><a href="#">Locations</a></li>
-          <li><a href="#">Patients & Visitors</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Find A Doctor</a></li>
-          <li><a href="#">Manage Your Account</a></li>
-          <li><a href="#">My-HealthONE</a></li>
-          <li><a href="#">Search</a></li>
+          <li><a href="/#">My Health Resources</a></li>
+          <li><a href="/#">Specialties</a></li>
+          <li><a href="/#">Locations</a></li>
+          <li><a href="/#">Patients & Visitors</a></li>
+          <li><a href="/#">Careers</a></li>
+          <li><a href="/#">About Us</a></li>
+          <li><a href="/#">Find A Doctor</a></li>
+          <li><a href="/#">Manage Your Account</a></li>
+          <li><a href="/#">My-HealthONE</a></li>
+          <li><a href="/#">Search</a></li>
         </ul>
       </nav>
     </header>
