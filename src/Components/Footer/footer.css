@@ -1,0 +1,38 @@
+.footer {
+    background-color: #f0f0f0; /* Adjust background color as needed */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .logo {
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 150px; /* Adjust logo size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    text-align: left;
+  }
+  
+  .contact a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-media a {
+    color: #333;
+    font-size: 20px;
+  }
+  
