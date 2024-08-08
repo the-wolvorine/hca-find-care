@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hca-find-care/static/css/main.014c8045.css",
+    "main.js": "/hca-find-care/static/js/main.7ebda67c.js",
+    "static/js/453.9a6e8a4d.chunk.js": "/hca-find-care/static/js/453.9a6e8a4d.chunk.js",
+    "static/media/HCA_Logo.png": "/hca-find-care/static/media/HCA_Logo.4bba206716ccc6bb53b5.png",
+    "static/media/HCA_Footer_Logo.png": "/hca-find-care/static/media/HCA_Footer_Logo.bfb813a242f653b4ef07.png",
+    "index.html": "/hca-find-care/index.html",
+    "main.014c8045.css.map": "/hca-find-care/static/css/main.014c8045.css.map",
+    "main.7ebda67c.js.map": "/hca-find-care/static/js/main.7ebda67c.js.map",
+    "453.9a6e8a4d.chunk.js.map": "/hca-find-care/static/js/453.9a6e8a4d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.014c8045.css",
+    "static/js/main.7ebda67c.js"
+  ]
+}
